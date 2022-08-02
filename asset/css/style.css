@@ -1,0 +1,953 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'GT Walsheim Pro';
+}
+/*=========================================*/
+/*=======Start Header and Hero Section======*/
+/*=========================================*/
+.top-nav {
+    padding: 15px 0;
+    font-size: 18px;
+}
+.logo img {
+	width: 100%;
+}
+.srch {
+    position: relative;
+    box-shadow: 0px 4px #ebe6ee;
+}
+.srch input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+}
+.srch_btn {
+    background: transparent;
+    outline: 0;
+    border: 0;
+    position: absolute;
+    right: 5%;
+    top: 8px;
+}
+.srch_btn::before {
+    content: "";
+    position: absolute;
+    right: 35px;
+    top: -4px;
+    width: 2px;
+    height: 35px;
+    background: #ebe6ee;
+}
+.phone {
+    background: #ebe6ee;
+    padding: 5px;
+}
+.phone i {
+    padding: 10px;
+    background: #58376a;
+    color: #fff;
+}
+.nmbr {
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+.live {
+    padding: 5px;
+    background: #ebe6ee;
+}
+.live img {
+    padding-right: 10px;
+}
+/*Menu CSS*/
+.menu {
+    background: #58376a;
+}
+.menu ul {
+    justify-content: space-between;
+}
+.menu ul li a {
+    color: #fff;
+    font-size: 18px;
+}
+/*DropDown Menu*/
+.dropdownMenu {
+    padding: 15px 0px;
+}
+.dropdownMenu a {
+    font-size: 16px;
+    color: #5b5b5b;
+}
+.dropdownMenu ul {
+    justify-content: space-between;
+}
+.pc-menu {}
+.responsive_header {
+    display: none;
+}
+/*Bottom nav read more section*/
+.bottom-nav {
+    background: #05abab;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+}
+.read-more-text {}
+.read-more-text p {
+    font-size: 19px;
+    line-height: 41px;
+    font-weight: 500;
+    color: #fff;
+    padding-right: 15px;
+}
+.read-btn {
+    color: #fff;
+    border: 1px solid #fff;
+    background: none;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+/*********Banner Section CSS*********/
+.banner {
+    background: url(../images/bannar.png)no-repeat scroll 0 0 / 100% 100%;
+    padding: 120px 0px;
+    color: #fff;
+}
+.banner-link a {
+    color: #c0bbda;
+    font-size: 20px;
+    padding: 0px 15px;
+    text-transform: uppercase;
+}
+.activeClass {
+    color: #fff !important;
+}
+.banner-link span {
+    padding-top: 5px;
+}
+.banner p {
+    font-size: 22px;
+}
+.banner h3 {
+    font-size: 50px;
+    font-weight: 700;
+    padding: 20px 0px;
+    margin-left: 30px;
+    position: relative;
+}
+.banner h3::before {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 30px;
+    background: #ffa300;
+    left: -20px;
+    top: 38px;
+}
+.banner-para {
+    padding-left: 30px;
+}
+/********Banner Right Side CSS*/
+.banner-type {
+    width: 75%;
+}
+.banner-content-box {
+    display: flex;
+    padding: 15px;
+    border: 1px solid #5b5b5b;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.banner-content-box p {
+    font-size: 19px;
+}
+.training-course {
+    padding: 80px 0px;
+}
+.training-course-header h2 {
+    font-size: 54px;
+    font-weight: 500;
+    line-height: 65px;
+    color: #1c1b24;
+}
+.training-course-header p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #706c78;
+}
+/******Accordion CSS Start********/
+.accordion-item {
+    background-color: none;
+    background: transparent;
+    border: 0px solid #FFFFFF;
+}
+.accordion-button {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    color: #212529;
+    text-align: left;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, border-radius .15s ease, -webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, border-radius .15s ease, -webkit-box-shadow .15s ease-in-out;
+    -o-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease, -webkit-box-shadow .15s ease-in-out;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3A434B;
+    border-top: 2px solid #FFFFFF;
+}
+.accordion-body p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3A434B;
+}
+.accordion-item:last-of-type .accordion-button.collapsed {
+    border-bottom-right-radius: none;
+    border-bottom-left-radius: none;
+    border-bottom: 2px solid #FFFFFF !important;
+}
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 0;
+    content: "";
+    background-image: url("../images/down-arrow.png");
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../images/up-arrow.png");
+    transform: rotate(-180deg);
+}
+/******Accordion CSS End********/
+.accordion-section {
+    padding: 50px 0px;
+}
+.accordion-left-box {
+    padding: 15px;
+    padding-bottom: 50px;
+    border: 1px solid #eee8f1;
+    box-shadow: 0px 5px #eee8f1;
+}
+.left-img {
+    margin-bottom: 20px;
+}
+.left-img img{
+    width: 100%;
+    height: auto;
+}
+.accordion-btn {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+.book-now {
+    background: #563d82;
+    color: #fff;
+}
+.download-overview {
+    color: #fff;
+    background: #ffa300;
+}
+/*======Accordion Right Side Menu=====*/
+.accordion-ex-btn {
+    background: #f8f7f9;
+    outline: none;
+}
+.accordion-button:focus {
+    border: 0;
+    box-shadow: none;
+}
+/*======Accordion Body=====*/
+.accordion-body-content p {
+    font-size: 21px;
+    color: #6c676e;
+    padding-bottom: 20px;
+    line-height: 30px;
+    font-family: 'GT Walsheim Pro';
+    font-weight: 400;
+}
+.accordion-body-content h4 {
+    color: #000;
+    font-weight: 500;
+    padding-bottom: 15px;
+    font-family: 'GT Walsheim Pro';
+}
+.accordion-button.collapsed {
+    background: #f8f7f9 !important;
+    margin-bottom: 10px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.accordion-btn-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.accordion-body-content ul li {
+    font-size: 21px;
+    color: #1c1b24;
+    line-height: 51px;
+    font-weight: 400;
+}
+.item-name {}
+.item-name ul {}
+.item-name ul li {
+    font-size: 22px;
+    line-height: 62px;
+    color: #2f2f2f;
+    font-weight: 500;
+    font-family: 'GT Walsheim Pro';
+}
+.amount {
+    background: #f5f4f6;
+}
+.amount p {
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: 'GT Walsheim Pro';
+    color: #2f2f2f;
+}
+.amount p span {
+    color: #5d5c63;
+    font-size: 16px;
+}
+.video-con {
+    /* width: 580px; */
+    height: 245px;
+    background-color: #8080801c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.video-link-btn {
+    display: flex;
+    justify-content: space-between;
+}
+.video-link-left,
+.video-link-right {
+    padding: 12px;
+    width: 175px;
+    border: none;
+    border-radius: 5px;
+    font-size: 19px;
+    line-height: 50px;
+    color: #2f2f2f;
+    font-weight: 500;
+}
+.video-link-left:hover {
+    background-color: #3e3878;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video-link-right:hover {
+    background-color: #3e3878;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video-link-right {
+    border: 1px solid #8080801c;
+}
+.itil-item-details-text {}
+.itil-item-details-text h4 {
+    font-size: 23px;
+    line-height: 30px;
+    color: #2f2f2f;
+    font-weight: 500;
+    margin-top: 25px;
+    font-family: 'GT Walsheim Pro';
+}
+.itil-item-details-text p {
+    font-size: 19px;
+    line-height: 30px;
+    color: #858186;
+    font-weight: 400;
+    font-family: 'GT Walsheim Pro';
+}
+.itil-item-details-text ul {}
+.itil-item-details-text ul li {
+    font-size: 19px;
+    line-height: 30px;
+    color: #1c1b24;
+    font-weight: 400;
+    font-family: 'GT Walsheim Pro';
+}
+/******Testmonial CSS********/
+.testmonial {
+    padding: 50px 0;
+}
+.testmonial h2 {
+    font-size: 56px;
+    font-weight: 700;
+}
+.testmonial h3 {
+    font-size: 21px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.container-text {
+    padding-bottom: 50px;
+}
+.box {
+    border: 1px solid #d7d6da;
+    padding: 20px;
+    box-shadow: 0px 5px #eee8f1;
+}
+.testmonial i {
+    color: #563d82;
+    padding-right: 5px;
+}
+.star {
+    padding-bottom: 5px;
+}
+.content-tex p {
+    color: #1c1b24;
+    padding-bottom: 20px;
+    font-size: 18px;
+    line-height: 28px;
+}
+.customer-name {
+    background: #e8e6ea;
+    padding: 10px 20px;
+}
+.harizantalLIne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.lineOne {
+    height: 10px;
+    width: 50%;
+    background: #ffa300;
+}
+.lineTwo {
+    height: 10px;
+    width: 50%;
+    background: #563d82;
+    color: #563d82;
+}
+.customer-name img {
+    margin-left: 15px;
+}
+.swiper-slide {
+    height: 333px !important;
+}
+.slder-arrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/******Information CSS Start*****/
+.information {
+    padding: 50px 0;
+}
+.information-header p {
+    font-size: 21px;
+    font-weight: 500;
+    color: #563d82;
+    line-height: 50px;
+}
+.information-header h2 {
+    font-size: 56px;
+    font-weight: 700;
+    padding: 15px 0;
+}
+.information-form {
+    background: #eee;
+    padding: 30px;
+    margin-top: 20px;
+}
+.information .location .nav-item {
+    padding: 5px;
+    background: #fff;
+    box-shadow: 0px 10px 0px 0px #ece6ef;
+}
+.information .choose-date .nav-item {
+    padding: 5px;
+    background: #fff;
+    box-shadow: 0px 10px 0px 0px #ece6ef;
+}
+.information .dropdown-toggle::after {
+    content: none;
+}
+.location-link {
+    justify-content: space-between;
+}
+.location-link p {
+    font-size: 14px;
+    color: #6c6a7f;
+    text-transform: uppercase;
+}
+.location-link p span {
+    font-size: 19px;
+    color: #1c1b24;
+    text-transform: uppercase;
+}
+.choose-date-link p {
+    font-size: 14px;
+    color: #6c6a7f;
+    text-transform: uppercase;
+}
+.choose-date-link p span {
+    font-size: 19px;
+    color: #1c1b24;
+    text-transform: uppercase;
+}
+.date-link {
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown-menu.show {
+    width: 95%;
+}
+.filter-now-btn {
+    width: 100%;
+    padding: 18px;
+    font-size: 20px;
+    background: #563d82;
+    color: #fff;
+}
+/*******Information Slider******/
+.information-slider {
+    padding-top: 50px;
+}
+.info-slider-content-box {
+    padding: 30px;
+    border: 1px solid #eee;
+    position: relative;
+    box-shadow: 0px 5px #eee;
+    height: 100%;
+}
+.info-slider-header {
+    margin-bottom: 20px;
+}
+.info-slider-header img {
+    padding-right: 10px;
+}
+.info-slider-header .text {
+    padding-top: 15px;
+}
+.info-slider-header .text span {
+    font-size: 17px;
+    color: #6c6a7f;
+}
+.info-slider-header .text h5 {
+    font-weight: 500;
+    font-size: 25px;
+    color: #1c1b24;
+}
+.info-slider-content-box .new {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    padding: 5px;
+    background: #04a5a5;
+    color: #fff;
+}
+.info-slider-content-box .new .new-text {
+    padding: 5px;
+    border: 1px dotted #eee;
+}
+.info-slider-content-box .new .new-text span {
+    font-size: 11px;
+    color: #e5f5f5;
+    font-weight: 500;
+    line-height: 25px;
+}
+.info-slider-content-box .new .new-text p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: 'GT Walsheim Pro';
+}
+/*Course Date & location*/
+.info-course-date-loc {
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    justify-content: space-between;
+}
+.course-date i {
+    padding: 15px;
+    background: #eee;
+    border-radius: 50%;
+    color: #563d82;
+}
+.course-date .course-date-text {
+    position: relative;
+    left: 10px;
+    top: -25px;
+    float: left;
+}
+.course-date .course-date-text p {
+    font-size: 22px;
+    color: #1c1b24;
+}
+.course-date .course-date-text span {
+    font-size: 14px;
+    color: #6c6a7f;
+}
+.info-location i {
+    padding: 15px;
+    background: #eee;
+    border-radius: 50%;
+    color: #563d82;
+    font-size: 20px;
+    position: relative;
+}
+.info-location .info-location-text {
+    position: relative;
+    left: 55px;
+    top: -50px;
+    float: left;
+}
+.info-location .info-location-text span {
+    font-size: 14px;
+    color: #6c6a7f;
+}
+.info-location .info-location-text p {
+    font-size: 22px;
+    color: #1c1b24;
+}
+.info-location::before {
+    content: "";
+    position: absolute;
+    left: 260px;
+    width: 2px;
+    height: 50px;
+    background: #eee;
+}
+/*****Information Content Button*******/
+.info-btn-box {
+    display: flex;
+    justify-content: space-between
+}
+.info-btn {
+    display: inline-block;
+	font-size: 19px;
+	color: #1c1b24;
+	padding: 15px 10px;
+	background: none;
+	outline: none;
+	border: 1px solid #d2d2d2;
+	width: 45%;
+    text-align: center;
+}
+.book-now {
+    color: #563d82;
+    background: #f3f1f6;
+    border: none;
+}
+.info-btn:hover {
+    color: #fff;
+    background: #563d82;
+}
+/*=======Slider Pagination======*/
+.slider-page {
+    padding: 30px;
+    text-align: center;
+}
+.slider-page ul li {
+    display: inline-block;
+    padding: 0px 10px;
+    margin: 2px 10px;
+    /*
+    border: 1px solid #eee;
+    border-radius: 50%;
+*/
+}
+.slider-page ul li a {
+    font-size: 25px;
+}
+
+.slider-page ul li .active {
+	background-color: #440ea4 !important;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	box-sizing: border-box;
+	color: aliceblue;
+	padding: 2px !important;
+	display: block;
+	border: none;
+}
+
+.slider-page ul li i,
+.active {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #eee;
+    border-radius: 50%;
+}
+.slider-page ul li .active {
+    padding: 10px 20px;
+    color: #fff;
+    background: #563d82;
+}
+/*===========Related Course CSS========*/
+.related-course {
+    padding-bottom: 50px;
+}
+/******Sample of accordion******/
+.accordion2-main-box {
+    padding: 10px;
+    border: 1px solid #eee;
+    justify-content: space-between;
+}
+.accordion2-main-box .btn P {
+    color: #FFF;
+    padding: 10px 20px;
+    background: #563d82;
+}
+.accordion2-main-box .classroom p {
+    font-size: 20px;
+    color: #1c1b24;
+    padding-top: 15px;
+}
+.accordion2-main-box .foundation {
+    font-size: 23px;
+    color: #1c1b24;
+    padding-top: 15px;
+    position: relative;
+}
+.accordion2-main-box .foundation::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    width: 2px;
+    height: 30px;
+    background: #eee;
+}
+.accordion2-main-box .price {
+    display: inline-flex;
+    padding-top: 15px;
+    position: relative;
+}
+.accordion2-main-box .price::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    width: 2px;
+    height: 30px;
+    background: #eee;
+}
+.accordion2-main-box .price h5 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: 'GT Walsheim Pro';
+    color: #1c1b24;
+}
+.accordion2-main-box .price span {
+    font-size: 16px;
+    color: #a3a2a4;
+    padding-top: 7px;
+}
+.accordion2-main-box .icon {
+    padding-top: 8px;
+    position: relative;
+}
+.accordion2-main-box .icon::before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: -50px;
+    width: 2px;
+    height: 30px;
+    background: #eee;
+}
+/****Footer CSS*****/
+.footer {
+    padding: 50px;
+    background: #d7d6da;
+}
+.ftr-logo img {
+    padding-bottom: 30px;
+}
+.ftr-text p {
+    color: #706c78;
+    font-size: 20px;
+    padding: 20px 0;
+    line-height: 30px;
+}
+.payment ul li {
+    padding-left: 30px;
+}
+.ftr-text span {
+    color: #706c78;
+    font-size: 20px;
+}
+.social-icon ul li {
+    padding-right: 5px;
+}
+.social-icon ul li i {
+    padding: 10px;
+    background: #3e3878;
+    color: #fff;
+    border-radius: 50%;
+}
+.ftr-btm ul {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.ftr-btm ul li {}
+.ftr-btm ul li a {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #1c1b24;
+}
+/******accordion-offer-box*******/
+.accordion-offer-box {
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+    background: url(../images/bg.png) no-repeat scroll 0 0 / 100% 100%;
+    margin-top: 70px;
+}
+.accordion-offer-box p {
+    font-size: 21px;
+    color: #ffa300;
+    position: relative;
+}
+.accordion-offer-box p::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 450px;
+    width: 5px;
+    height: 20px;
+    background: #ffa300;
+}
+.accordion-offer-box h2 {
+    font-size: 55px;
+    color: #fff;
+    line-height: 70px;
+    padding: 15px 0;
+}
+.accordion-offer-box span {
+    font-size: 22px;
+    color: #f7f7f7bd;
+}
+.accordion-offer-box-btn button {
+    font-size: 22px;
+    color: #fff;
+    width: 25%;
+    padding: 15px;
+    margin: 20px;
+    background: none;
+    outline: none;
+    border: 1px solid #f8f7f9;
+}
+.accordion-offer-box-btn button i {
+    color: #ffa300;
+    padding-right: 10px;
+}
+.accordion-offer-box-btn button:hover {
+    color: #000;
+    background: #ffa300;
+}
+.item-name ul li img {
+    margin-right: 15px;
+}
+.newPossition{
+    position: relative;
+}
+.headerEffect{}
+.hEffectOne{
+    position: absolute;
+    bottom: -1%;
+    left: 10%;
+}
+.hEffectOne img{}
+.hEffectTwo{
+    position: absolute;
+    top: 0%;
+    right: 10%;
+}
+.hEffectTwo img{}
+.hoverArrow{
+    display: none;
+}
+.icon:hover .mainArrwo{
+    display: none;
+}
+.icon:hover .hoverArrow{
+    display: block;
+}
+
+.swiper-pagination-bullet {
+
+	display: inline-block;
+	background: #3e3878 !important;
+	width: 5% !important;
+	height: 5px !important;
+	border-radius: 0 !important;
+}
+.swiper-pagination{
+   z-index: -1;
+}
+.rec-left-arrow,.rec-right-arrow  {
+    z-index: 999;
+}

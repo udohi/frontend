@@ -1,0 +1,633 @@
+
+@media only screen and (max-width: 2200px) and (min-width: 1401px) {
+        .dropdownMenuOption li {
+	margin-right: 1.3%;
+}
+}
+
+@media only screen and (max-width: 1600px) and (min-width: 1401px) {
+    .dropdownMenuOption li {
+	margin-right: 1.3%;
+}
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .logo img {
+        width: 220px;
+    }
+
+    .nmbr {
+        font-size: 15px;
+        font-weight: 700;
+        padding-left: 10px;
+    }
+
+    .dropdownMenuOption li {
+        list-style-type: none;
+        float: left;
+        margin-right: -3%;
+    }
+
+    .dropdownMenu a {
+        font-size: 15px;
+        color: #5b5b5b;
+    }
+
+    .banner h3 {
+        font-size: 39px;
+        padding: 20px 0px;
+        margin-left: 30px;
+    }
+
+    .banner h3::before {
+        width: 7px;
+        height: 30px;
+        background: #ffa300;
+        left: -20px;
+        top: 29px;
+    }
+
+    .info-slider-header .text h5 {
+        font-weight: 500;
+        font-size: 20px;
+        color: #1c1b24;
+    }
+
+    .course-date .course-date-text p {
+        font-size: 18px;
+        color: #1c1b24;
+    }
+
+    .info-location .info-location-text p {
+        font-size: 18px;
+        color: #1c1b24;
+    }
+}
+
+@media only screen and (max-width: 1080px) and (min-width: 1080px) {}
+
+@media all and (max-width:991px) {
+    .pc-menu {
+        display: none;
+    }
+
+    .responsive_header {
+        display: block;
+    }
+
+    .logo {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .srch {
+        position: relative;
+        box-shadow: 0px 4px #ebe6ee;
+        margin-bottom: 25px;
+    }
+
+    .banner-link a {
+        color: #fff;
+        font-size: 18px;
+        padding: 0px 15px;
+    }
+
+    .banner h3 {
+        font-size: 41px;
+        font-weight: 700;
+        padding: 20px 0px;
+        margin-left: 30px;
+        position: relative;
+    }
+
+    .training-course-header h2 {
+        font-size: 46px;
+        line-height: 65px;
+    }
+
+    .item-name ul li {
+        font-size: 17px;
+        line-height: 32px;
+    }
+
+    .amount p {
+        font-size: 17px;
+        line-height: 32px;
+    }
+
+    .testmonial h2 {
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    .container-text {
+        padding-bottom: 25px;
+    }
+
+    .accordion-offer-box h2 {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .accordion-offer-box-btn {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .accordion-offer-box-btn button {
+        width: 60%;
+    }
+
+    .accordion-offer-box h2 {
+        font-size: 41px;
+        line-height: 45px;
+    }
+
+    .accordion-offer-box span {
+        font-size: 18px;
+        color: #f7f7f7bd;
+    }
+
+    .accordion-offer-box-btn button {
+        width: 100%;
+    }
+
+    .accordion-offer-box h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .ftr-text p {
+        color: #706c78;
+        font-size: 18px;
+        padding: 20px 0;
+        line-height: 30px;
+    }
+
+    .ftr-text span {
+        color: #706c78;
+        font-size: 18px;
+    }
+
+    .ftr-btm span {
+        font-size: 18px;
+    }
+
+    .social-icon-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+    }
+
+    .banner-type {
+        width: 100%;
+        margin-top: 35px;
+    }
+
+    .banner {
+        background: #4f3b7f;
+        padding: 65px 0px;
+        color: #fff;
+    }
+
+    .left-img {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .accordion-left-box {
+        margin-bottom: 28px;
+    }
+
+    .information-header h2 {
+        font-size: 39px;
+        padding: 8px 0;
+    }
+
+    .accordion-offer-box {
+        background-size: cover;
+    }
+    .headerEffect{
+        display: none;
+    }
+    .banner {
+    background-size: cover;
+}
+
+}
+
+@media all and (max-width:767px) {
+    .banner-link {
+        display: flex !important;
+        flex-wrap: wrap;
+    }
+
+    .banner-link a {
+        margin-top: 7px;
+    }
+
+    .banner-link span {
+        padding-top: 10px;
+    }
+
+    .banner h3 {
+        font-size: 31px;
+        padding: 20px 0px;
+        position: relative;
+    }
+
+    .banner h3::before {
+        left: -20px;
+        top: 26px;
+    }
+
+    .banner p {
+        font-size: 19px;
+    }
+
+    .training-course-header h2 {
+        font-size: 35px;
+        line-height: 48px;
+    }
+
+    .testmonial h2 {
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    .information-header h2 {
+        font-size: 25px;
+        padding: 8px 0;
+    }
+
+    .info-btn-box .book-now {
+        color: #563d82;
+        background: #f3f1f6;
+        width: 46%;
+        padding: 0;
+    }
+
+    .info-btn {
+        font-size: 19px;
+        color: #1c1b24;
+        padding: 15px 60px;
+        background: none;
+        outline: none;
+        border: 1px solid #d2d2d2;
+        width: 46%;
+        padding: 15px 5px;
+    }
+
+    .course-date .course-date-text p {
+        font-size: 18px;
+        color: #1c1b24;
+    }
+
+    .info-location .info-location-text p {
+        font-size: 18px;
+        color: #1c1b24;
+    }
+
+    .accordion2-main-box .classroom p {
+        font-size: 17px;
+        color: #1c1b24;
+        padding-top: 0px;
+    }
+
+    .accordion2-main-box .foundation h5 {
+        font-size: 17px;
+        color: #1c1b24;
+        padding-top: 0px;
+    }
+
+    .accordion2-main-box .foundation::before {
+        display: none;
+    }
+
+    .accordion2-main-box .price::before {
+        display: none;
+    }
+
+    .accordion2-main-box .price h5 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        color: #1c1b24;
+    }
+
+    .accordion2-main-box .icon::before {
+        display: none;
+    }
+
+    .accordion2-main-box .price span {
+        font-size: 12px;
+        color: #a3a2a4;
+        padding-top: 7px;
+    }
+
+    .accordion2-main-box {
+        padding: 10px;
+        border: 1px solid #eee;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .price {
+        text-align: center !important;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media all and (max-width:577px) {
+    .phone {
+        margin-bottom: 15px;
+    }
+
+    .banner {
+        padding: 50px 0px;
+    }
+
+    .training-course-header h2 {
+        font-size: 29px;
+        line-height: 48px;
+    }
+
+    .training-course-header p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .training-course {
+        padding: 35px 0px;
+    }
+
+    .banner h3 {
+        font-size: 27px;
+        padding: 20px 0px;
+        position: relative;
+    }
+
+    .itil-item-details-text h4 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .itil-item-details-text p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .itil-item-details-text ul li {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .testmonial h2 {
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .swiper-slide {
+        height: 400px !important;
+    }
+
+    .menuBar {
+        display: block;
+        padding-right: 40px;
+    }
+
+    .accordion-offer-box p::before {
+        display: none;
+    }
+
+    .payItem {
+        flex-wrap: wrap;
+    }
+
+    .payment ul li {
+        padding-left: 20px;
+        margin-top: 17px;
+    }
+
+    .ftr-btm ul {
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+        flex-wrap: wrap;
+    }
+
+    .ftr-btm ul li {
+        padding: 10px 15px;
+    }
+
+    .accordion-body-content p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .info-slider-header {
+        margin-bottom: 20px;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .info-slider-header img {
+        padding-right: 10px;
+        height: 80px;
+        width: 90px;
+        border-radius: 0%;
+        margin: 0 auto;
+    }
+
+    .info-slider-content-box .new {
+        position: absolute;
+        top: 1%;
+        right: 20px;
+        padding: 5px;
+        background: #04a5a5;
+        color: #fff;
+    }
+}
+
+@media all and (max-width:480px) {
+    .training-course-header h2 {
+        font-size: 25px;
+        line-height: 48px;
+    }
+
+    .training-course-header p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .banner h3 {
+        font-size: 20px;
+        padding: 20px 0px;
+        position: relative;
+    }
+
+    .banner-link a {
+        color: #fff;
+        font-size: 16px;
+        padding: 0px 15px;
+    }
+
+    .banner p {
+        font-size: 16px;
+    }
+
+    .banner h3::before {
+        left: -20px;
+        top: 24px;
+        height: 21px;
+    }
+
+    .read-more-text p {
+        font-size: 16px;
+        padding-right: 15px;
+        text-align: center;
+        line-height: 25px;
+    }
+
+    .readMore {
+        flex-direction: column;
+        justify-content: center !important;
+    }
+
+    .read-more-btn {
+        text-align: center;
+    }
+
+    .banner {
+        padding: 25px 0px;
+    }
+
+    .item-name ul li {
+        font-size: 15px;
+        line-height: 32px;
+    }
+
+    .amount p {
+        font-size: 15px;
+        line-height: 32px;
+    }
+
+    .video-link-btn {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .video-link-left {
+        text-align: center !important;
+        margin-bottom: 18px;
+    }
+
+    .accordion-body {
+        padding: 1rem 0rem;
+    }
+
+    .testmonial h2 {
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .testmonial h3 {
+        font-size: 17px;
+    }
+
+    .swiper-slide {
+        height: 357px !important;
+    }
+
+    .accordion-offer-box h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .content-tex p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .customer-name {
+        background: #e8e6ea;
+        padding: 10px 0px;
+    }
+
+    .footer {
+        padding: 50px 0px;
+        background: #d7d6da;
+    }
+}
+
+@media all and (max-width:400px) {
+    .training-course-header h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .training-course-header p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .testmonial h2 {
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .swiper-slide {
+        height: 348px !important;
+    }
+
+    .accordion-offer-box h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .customer-name img {
+        margin-left: 0px;
+    }
+}
+
+@media all and (max-width:375px) {
+    .box {
+        border: 1px solid #d7d6da;
+        padding: 20px 5px;
+    }
+}
+
+@media only screen and (max-width: 375px) and (min-width: 375px) {}
+
+@media only screen and (max-width: 360px) and (min-width: 360px) {}
+
+@media all and (max-width:359px) {
+    .banner h3 {
+        font-size: 18px;
+        padding: 20px 0px;
+        position: relative;
+    }
+
+    .banner h3::before {
+        left: -20px;
+        top: 21px;
+        height: 21px;
+    }
+
+    .info-btn-box .book-now {
+        font-size: 16px;
+    }
+
+    .info-btn {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width:350px) {}
