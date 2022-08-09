@@ -1,0 +1,1593 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classroom</title>
+    <link rel="icon" href="#" type="image/gif" sizes="16x16">
+    <!--Bootstrap CDN Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--Font awesome CDN Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <!--=================Link Swiper's CSS=================-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!--Main Stylesheet-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!--=================Link Jquery JS=================-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="assets/pagination.js"></script>
+</head>
+
+<body>
+    <!--=================Start Header and Hero Section==============-->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row top-nav">
+                <div class="col-lg-3 col-md-12 col-12 p-0">
+                    <div class="logo">
+                        <img src="assets/images/logo.png" alt="logo">
+                    </div>
+                </div>
+                <!--Search Box-->
+                <div class="col-lg-4 col-md-12 col-12 pl-0">
+                    <div class="srch">
+                        <input type="text" placeholder="What do you want to learn?" name="search">
+                        <button type="submit" class="srch_btn"><img src="assets/images/search.png" alt=""></button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="phone">
+                        <span><i class="fa-solid fa-phone"></i></span>
+                        <span class="nmbr">+44 (0)1539 736 828</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-12">
+                    <div class="live">
+                        <span><img src="assets/images/live.png" alt="">Live Chat</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Menubar Start Here-->
+    <div class="container-fluid menu pc-menu">
+        <div class="container">
+            <div class="row menu">
+                <ul class="d-flex">
+                    <li><a href="./index.html" class="nav-link">Child Category</a></li>
+                    <li><a href="./classroom.html" class="nav-link">Classroom</a></li>
+                    <li><a href="./e-learning.html" class="nav-link">E-learning</a></li>
+                    <li><a href="./parent-category.html" class="nav-link">Parent Category</a></li>
+                    <li><a href="#" class="nav-link">Quizzes</a></li>
+                    <li><a href="#" class="nav-link">Special Offers</a></li>
+                    <li><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--Responsive Header Area Start-->
+    <header class="header responsive_header">
+        <a href="index.html" class="logo"></a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="#" class="nav-link">Consultancy</a></li>
+            <li><a href="#" class="nav-link">On-Site</a></li>
+            <li><a href="#" class="nav-link">About</a></li>
+            <li><a href="#" class="nav-link">Freebies</a></li>
+            <li><a href="#" class="nav-link">Quizzes</a></li>
+            <li><a href="#" class="nav-link">Special Offers</a></li>
+            <li><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+    </header>
+    <!--Responsive Header Area Start-->
+    <!--DropDown Menubar Start Here-->
+    <div class="container-fluid dropdownMenu">
+        <div class="container">
+            <div class="row">
+                <!--Menu Bar-->
+                <div class="dropdownMenuResponsive menuBar">
+                    <i class="fa-solid fa-bars menubaricon"></i>
+                </div>
+                <!--/// End Menu Bar-->
+                <ul class="dropdownMenuOption" id="dropdownMenu">
+                    <!-- start category item -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="category-menu-1" href="#">Parent Category</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item">A</li>
+                            <li class="dropdown-item">B</li>
+                            <li class="dropdown-item">C</li>
+                        </ul>
+                    </li>
+                    <!-- start category item -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="category-menu-1" href="#">Parent Category</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item">A</li>
+                            <li class="dropdown-item">B</li>
+                            <li class="dropdown-item">C</li>
+                        </ul>
+                    </li>
+                    <!-- start category item -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="category-menu-1" href="#">Parent Category</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item">A</li>
+                            <li class="dropdown-item">B</li>
+                            <li class="dropdown-item">C</li>
+                        </ul>
+                    </li>
+                    <!-- start category item -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="category-menu-1" href="#">Parent Category</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item">A</li>
+                            <li class="dropdown-item">B</li>
+                            <li class="dropdown-item">C</li>
+                        </ul>
+                    </li>
+                    <!-- start category item -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="category-menu-1" href="#">Parent Category</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item">A</li>
+                            <li class="dropdown-item">B</li>
+                            <li class="dropdown-item">C</li>
+                        </ul>
+                    </li>
+                    <!-- start category item -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="category-menu-1" href="#">Parent Category</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item">A</li>
+                            <li class="dropdown-item">B</li>
+                            <li class="dropdown-item">C</li>
+                        </ul>
+                    </li>
+                    <!-- start category item -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="category-menu-1" href="#">Parent Category</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item">A</li>
+                            <li class="dropdown-item">B</li>
+                            <li class="dropdown-item">C</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function() {
+            $(".menuBar").click(function() {
+                $("#dropdownMenu").toggle();
+            });
+        });
+
+    </script>
+    <!--Read more text -->
+    <div class="container-fluid bottom-nav newPossition">
+        <!--Effect-->
+        <div class="headerEffect">
+            <div class="hEffectOne">
+                <img src="assets/images/h-effect-01.png" alt="img">
+            </div>
+            <div class="hEffectTwo">
+                <img src="assets/images/h-effect-02.png" alt="img">
+            </div>
+        </div>
+        <!--/// End Effect-->
+        <div class="container d-flex justify-content-center readMore">
+            <div class="read-more-text">
+                <p>This will be a colour changing banner</p>
+            </div>
+            <div class="read-more-btn">
+                <button class="read-btn">Read More</button>
+            </div>
+        </div>
+    </div>
+    <!--=======Banner Section Start=====-->
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <!--Banner Left Side-->
+                <div class="col-lg-6">
+                    <div class="banner-text">
+                        <div class="banner-link d-flex">
+                            <a href="#">Home</a><span>-</span>
+                            <a href="#">Course</a><span>-</span>
+                            <a href="#" class="activeClass">ITIL&reg; Service Design</a>
+                        </div>
+                        <h3>ITIL&reg; Service Design</h3>
+                        <p class="banner-para">Service Design is required to enhance the quality of IT Service Management</p>
+                    </div>
+                </div>
+                <!--Banner Right Side-->
+                <div class="col-lg-6">
+                    <div class="banner-type float-end">
+                        <div class="duration banner-content-box">
+                            <p><img src="assets/images/icon/01.png" alt=""> DURATION</p>
+                            <span>3 Days</span>
+                        </div>
+                        <div class="type banner-content-box">
+                            <p><img src="assets/images/icon/02.png" alt=""> TYPE </p>
+                            <span>Exam Included</span>
+                        </div>
+                        <div class="pricing banner-content-box">
+                            <p><img src="assets/images/icon/03.png" alt=""> PRICING </p>
+                            <span>£995+VAT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=======Banner Section End=====-->
+    <!--=======Pay with Knoma Section Start=====-->
+    <section class="main-pay-knoma-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="knoma-box">
+                        <div class="knoma-box-heading">
+                            <h4>Pay Later With K﻿noma</h4>
+                        </div>
+                        <div class="knoma-box-content">
+                            <div class="flexBox5">
+                                <div class="leftSide">
+                                    <div>
+                                        <h5>Why pay later?</h5>
+                                    </div>
+                                    <div>
+                                        <ul>
+                                            <li>Spread the cost of your training course</li>
+                                            <li>Choose a flexible repayment schedule up to 12 months</li>
+                                            <li>No interest, and no fees</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="rightSide">
+                                    <div>
+                                        <h5>Am I eligible?</h5>
+                                    </div>
+                                    <div>
+                                        <ul>
+                                            <li>Must be a UK resident</li>
+                                            <li>Must be 18+ years old</li>
+                                            <li>Must have a UK bank account</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <h5>Please Note:</h5>
+                                <ol>
+                                    <li>All training courses purchased with K﻿noma will be at full RRP and no discounts can be applied. The prices on K﻿noma are inclusive of VAT.</li>
+                                    <li>The deposit for your training course must be paid to Purple Griffon, not K﻿noma. Please email us at <a href="info@purplegriffon.com">info@purplegriffon.com</a> or call <a href="tel:+441539736828">+44 (0)1539 736 828</a> to make payment.</li>
+                                    <li>You can only take out one loan application with K﻿noma at a time. If you would like to book multiple training courses, contact us and we might be able to arrange a payment plan with you internally for the other training courses.</li>
+                                </ol>
+                            </div>
+                            <div>
+                                <div id="k-paywith-action new" k-custom="blue" k-provider-id="0018d000008OVLlAAO" k-course-id="ITIL4FONLINE" class="paywith-button-v2--container paywith--container"><a href="https://www.knoma.io/checkouts/new?course_code=ITIL4FONLINE&amp;sfid=0018d000008OVLlAAO&amp;leadRef=https://purplegriffon.com/courses/e-learning/itil-4-foundation-180-days" target="_blank" class="paywith-button paywith--blue">
+                                        <p class="knoma-p">
+                                            <svg width="150" height="32" viewBox="0 0 150 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1.76 11.4H6.404C7.592 11.4 8.582 11.796 9.374 12.588C10.178 13.38 10.58 14.364 10.58 15.54C10.58 16.704 10.178 17.688 9.374 18.492C8.582 19.284 7.592 19.68 6.404 19.68H3.83V24H1.76V11.4ZM3.83 17.736H6.404C7.016 17.736 7.52 17.532 7.916 17.124C8.312 16.704 8.51 16.176 8.51 15.54C8.51 14.904 8.312 14.382 7.916 13.974C7.52 13.554 7.016 13.344 6.404 13.344H3.83V17.736ZM18.7464 16.278V15H20.6904V24H18.7464V22.704C18.0144 23.724 16.9644 24.234 15.5964 24.234C14.3604 24.234 13.3044 23.778 12.4284 22.866C11.5524 21.954 11.1144 20.832 11.1144 19.5C11.1144 18.168 11.5524 17.046 12.4284 16.134C13.3044 15.222 14.3604 14.766 15.5964 14.766C16.9644 14.766 18.0144 15.27 18.7464 16.278ZM13.8684 21.57C14.4084 22.11 15.0864 22.38 15.9024 22.38C16.7184 22.38 17.3964 22.11 17.9364 21.57C18.4764 21.018 18.7464 20.328 18.7464 19.5C18.7464 18.672 18.4764 17.988 17.9364 17.448C17.3964 16.896 16.7184 16.62 15.9024 16.62C15.0864 16.62 14.4084 16.896 13.8684 17.448C13.3284 17.988 13.0584 18.672 13.0584 19.5C13.0584 20.316 13.3284 21.006 13.8684 21.57ZM26.7183 21.534L29.0223 15H31.0923L27.6363 24.288C26.7723 26.616 25.3083 27.72 23.2443 27.6V25.782C23.8443 25.818 24.3303 25.692 24.7023 25.404C25.0743 25.116 25.3863 24.654 25.6383 24.018L25.7283 23.838L21.9123 15H24.0363L26.7183 21.534ZM45.4118 21.21L47.1758 15H49.2278L46.4018 24H44.4938L42.6218 17.934L40.7318 24H38.8238L35.9978 15H38.0498L39.7958 21.21L41.6858 15H43.5398L45.4118 21.21ZM52.4954 13.29C52.2554 13.53 51.9674 13.65 51.6314 13.65C51.2954 13.65 51.0014 13.53 50.7494 13.29C50.5094 13.038 50.3894 12.744 50.3894 12.408C50.3894 12.072 50.5094 11.784 50.7494 11.544C50.9894 11.292 51.2834 11.166 51.6314 11.166C51.9794 11.166 52.2734 11.292 52.5134 11.544C52.7534 11.784 52.8734 12.072 52.8734 12.408C52.8734 12.744 52.7474 13.038 52.4954 13.29ZM52.6034 24H50.6594V15H52.6034V24ZM59.8826 15V16.872H57.6506V21.192C57.6506 21.564 57.7346 21.834 57.9026 22.002C58.0706 22.158 58.3166 22.248 58.6406 22.272C58.9766 22.284 59.3906 22.278 59.8826 22.254V24C58.3946 24.18 57.3266 24.054 56.6786 23.622C56.0306 23.178 55.7066 22.368 55.7066 21.192V16.872H54.0506V15H55.7066V13.056L57.6506 12.48V15H59.8826ZM66.3797 14.766C67.4237 14.766 68.2577 15.102 68.8817 15.774C69.5177 16.434 69.8357 17.334 69.8357 18.474V24H67.8917V18.672C67.8917 18 67.7117 17.484 67.3517 17.124C66.9917 16.764 66.4997 16.584 65.8757 16.584C65.1677 16.584 64.6097 16.806 64.2017 17.25C63.7937 17.682 63.5897 18.324 63.5897 19.176V24H61.6457V11.4H63.5897V16.152C64.1897 15.228 65.1197 14.766 66.3797 14.766Z" fill="#530EDD"></path>
+                                                <g clip-path="url(#clip0_38_482)">
+                                                    <g clip-path="url(#clip1_38_482)">
+                                                        <path d="M90.5752 23.1375V14.8143C90.5751 14.7281 90.5919 14.6428 90.6248 14.5631C90.6576 14.4834 90.7058 14.4111 90.7666 14.3501C90.8274 14.2891 90.8996 14.2407 90.979 14.2077C91.0585 14.1747 91.1437 14.1577 91.2297 14.1577H93.1797C93.2376 14.1575 93.295 14.1687 93.3485 14.1908C93.4021 14.2128 93.4507 14.2453 93.4917 14.2862C93.5327 14.3272 93.5651 14.3759 93.5873 14.4294C93.6094 14.483 93.6207 14.5405 93.6206 14.5984V14.9227C93.6198 14.9491 93.6272 14.9751 93.6416 14.9971C93.6561 15.0192 93.677 15.0364 93.7014 15.0462C93.7259 15.056 93.7528 15.0581 93.7785 15.0522C93.8041 15.0463 93.8274 15.0326 93.8451 15.013C94.4635 14.3239 95.439 13.9581 96.4596 13.9581C98.6512 13.9581 100.011 15.2794 100.011 17.4957V23.1411C100.011 23.2273 99.994 23.3127 99.9612 23.3923C99.9283 23.472 99.8801 23.5443 99.8193 23.6053C99.7585 23.6663 99.6863 23.7147 99.6069 23.7477C99.5274 23.7807 99.4422 23.7977 99.3562 23.7977H97.6225C97.5365 23.7977 97.4513 23.7807 97.3719 23.7477C97.2924 23.7147 97.2202 23.6663 97.1594 23.6053C97.0986 23.5443 97.0504 23.472 97.0176 23.3923C96.9847 23.3127 96.9679 23.2273 96.968 23.1411V18.2037C96.968 17.0848 96.3369 16.374 95.3452 16.374C94.2895 16.374 93.6197 17.1254 93.6197 18.5081V23.1375C93.6198 23.2237 93.603 23.309 93.5701 23.3887C93.5373 23.4683 93.4891 23.5407 93.4283 23.6017C93.3675 23.6627 93.2953 23.7111 93.2159 23.7441C93.1364 23.7771 93.0512 23.7941 92.9652 23.7941H91.2297C91.1437 23.7941 91.0585 23.7771 90.979 23.7441C90.8996 23.7111 90.8274 23.6627 90.7666 23.6017C90.7058 23.5407 90.6576 23.4683 90.6248 23.3887C90.5919 23.309 90.5751 23.2237 90.5752 23.1375Z" fill="#530EDD"></path>
+                                                        <path d="M105.846 13.9545C108.789 13.9545 110.96 16.048 110.96 18.9759C110.96 21.9038 108.789 24 105.846 24C102.903 24 100.731 21.9056 100.731 18.9786C100.731 16.0516 102.907 13.9545 105.846 13.9545ZM105.846 16.6991C104.608 16.6991 103.674 17.5932 103.674 18.9759C103.674 20.3586 104.608 21.2527 105.846 21.2527C107.084 21.2527 108.018 20.3586 108.018 18.9759C108.018 17.5932 107.084 16.6991 105.846 16.6991V16.6991Z" fill="#530EDD"></path>
+                                                        <path d="M114.724 14.5687V14.9218C114.724 14.9369 114.729 14.9516 114.738 14.9637C114.747 14.9759 114.76 14.985 114.774 14.9898C114.789 14.9945 114.804 14.9947 114.818 14.9903C114.833 14.9859 114.846 14.9771 114.855 14.9651C115.357 14.2968 116.062 13.9545 116.956 13.9545C118.025 13.9545 118.907 14.5136 119.337 15.4357C119.343 15.4477 119.351 15.4581 119.362 15.4656C119.373 15.4732 119.385 15.4778 119.398 15.4788C119.412 15.4798 119.425 15.4773 119.436 15.4714C119.448 15.4656 119.458 15.4567 119.465 15.4456C120.129 14.4458 121.039 13.9545 122.232 13.9545C124.343 13.9545 125.682 15.2352 125.682 17.2889V23.3624C125.682 23.4769 125.637 23.5867 125.556 23.6677C125.475 23.7486 125.366 23.7941 125.251 23.7941H123.07C122.955 23.7941 122.846 23.7486 122.765 23.6677C122.684 23.5867 122.639 23.4769 122.639 23.3624V17.7964C122.639 16.9023 122.151 16.374 121.421 16.374C120.609 16.374 120.203 16.9628 120.203 17.9996V23.3615C120.203 23.476 120.157 23.5858 120.077 23.6667C119.996 23.7477 119.886 23.7932 119.772 23.7932H117.59C117.476 23.7932 117.366 23.7477 117.285 23.6667C117.205 23.5858 117.159 23.476 117.159 23.3615V17.7964C117.159 16.9023 116.692 16.4752 115.941 16.4752C115.211 16.4752 114.724 17.0243 114.724 18.0005V23.3624C114.724 23.4192 114.713 23.4754 114.691 23.5278C114.67 23.5802 114.638 23.6279 114.598 23.668C114.558 23.7081 114.51 23.7398 114.458 23.7615C114.405 23.7831 114.349 23.7942 114.292 23.7941H112.111C111.996 23.7941 111.887 23.7486 111.806 23.6677C111.725 23.5867 111.68 23.4769 111.68 23.3624V14.5894C111.68 14.4749 111.725 14.3651 111.806 14.2842C111.887 14.2032 111.996 14.1577 112.111 14.1577H114.314C114.423 14.1577 114.527 14.201 114.604 14.2781C114.681 14.3552 114.724 14.4597 114.724 14.5687V14.5687Z" fill="#530EDD"></path>
+                                                        <path d="M130.218 17.8985C130.751 17.8983 131.282 17.9589 131.801 18.0791L132.017 18.1306C132.073 18.1439 132.132 18.1443 132.189 18.1316C132.246 18.1189 132.299 18.0934 132.345 18.0572C132.39 18.021 132.427 17.9749 132.453 17.9224C132.478 17.8699 132.491 17.8123 132.491 17.754V17.754C132.491 16.8391 131.882 16.2909 130.807 16.2909C129.944 16.2909 129.364 16.6431 129.089 17.2202C129.037 17.3224 128.951 17.4034 128.846 17.4492C128.741 17.495 128.623 17.5028 128.513 17.4713L126.912 17.0459C126.844 17.0279 126.78 16.995 126.725 16.9496C126.67 16.9042 126.626 16.8473 126.596 16.7831C126.565 16.7188 126.549 16.6486 126.549 16.5775C126.548 16.5063 126.564 16.436 126.593 16.3713C127.298 14.8739 128.768 13.9563 130.83 13.9563C133.915 13.9563 135.437 15.339 135.437 17.9201V23.1998C135.437 23.3578 135.374 23.5093 135.263 23.621C135.151 23.7328 135 23.7956 134.842 23.7959H133.289C133.131 23.7956 132.98 23.7328 132.868 23.621C132.757 23.5093 132.694 23.3578 132.694 23.1998V22.9054C132.694 22.8751 132.685 22.8455 132.667 22.8206C132.65 22.7956 132.626 22.7765 132.598 22.7658C132.569 22.7551 132.538 22.7534 132.509 22.7607C132.48 22.768 132.453 22.7842 132.433 22.807C131.694 23.674 130.873 23.9991 129.548 23.9991C127.843 23.9991 126.403 22.7997 126.403 20.97C126.403 18.9551 127.803 17.8985 130.218 17.8985ZM132.491 20.2773L132.105 20.1147C131.662 19.9285 131.186 19.8316 130.705 19.8294C129.913 19.8294 129.443 20.1951 129.443 20.8463C129.443 21.4785 129.93 21.8397 130.762 21.8397C131.753 21.8397 132.486 21.25 132.486 20.3351L132.491 20.2773Z" fill="#530EDD"></path>
+                                                        <path d="M138.889 12.7019C137.956 13.6357 136.667 13.8669 135.749 12.9476C134.831 12.0282 134.713 10.3348 135.771 9.54547C136.943 8.67125 138.134 8.75072 139.052 9.67101C139.97 10.5913 139.821 11.7681 138.889 12.7019Z" fill="#530EDD"></path>
+                                                        <path d="M142.806 9.96543C140.082 8.99998 138.93 7.16573 139.151 4.65956C139.397 1.82013 141.557 0.269462 144.037 0.0265208C147.383 -0.301314 149.169 2.46496 149.482 5.29446C149.646 6.77107 148.671 8.39941 147.057 9.32872C146.257 9.78932 144.017 10.3953 142.806 9.96543Z" fill="#530EDD"></path>
+                                                        <path d="M89.3836 23.8302H87.4254C87.3154 23.8302 87.2071 23.8025 87.1105 23.7497C87.014 23.6968 86.9322 23.6205 86.8728 23.5277L84.0465 19.1087C84.0284 19.0805 84.0042 19.0569 83.9756 19.0396C83.947 19.0223 83.9149 19.0118 83.8816 19.0089C83.8483 19.006 83.8148 19.0108 83.7837 19.023C83.7526 19.0351 83.7247 19.0542 83.7021 19.0789L82.339 20.5726C82.302 20.6127 82.2814 20.6653 82.2813 20.7198V23.3994C82.2814 23.456 82.2703 23.5121 82.2488 23.5644C82.2272 23.6167 82.1955 23.6643 82.1556 23.7043C82.1156 23.7443 82.0682 23.776 82.0159 23.7977C81.9637 23.8193 81.9077 23.8303 81.8512 23.8302H79.9309C79.8744 23.8303 79.8184 23.8193 79.7661 23.7977C79.7138 23.7761 79.6663 23.7444 79.6263 23.7043C79.5862 23.6643 79.5545 23.6168 79.5328 23.5645C79.5112 23.5122 79.5 23.4561 79.5 23.3994V12.4888C79.5 12.3743 79.5454 12.2645 79.6262 12.1835C79.707 12.1026 79.8166 12.0571 79.9309 12.0571H81.8512C81.9078 12.0571 81.9638 12.0682 82.016 12.0899C82.0682 12.1117 82.1157 12.1435 82.1556 12.1836C82.1956 12.2237 82.2272 12.2713 82.2488 12.3236C82.2703 12.376 82.2814 12.4321 82.2813 12.4888V15.544C82.2813 16.4472 82.9204 16.1491 83.0548 15.9956L86.4987 12.1293C86.5192 12.1066 86.5442 12.0884 86.5722 12.076C86.6001 12.0635 86.6304 12.0571 86.6609 12.0571H89.4855C89.544 12.0572 89.6012 12.0743 89.6503 12.1062C89.6994 12.1382 89.7382 12.1836 89.7621 12.2371C89.786 12.2906 89.794 12.3499 89.785 12.4079C89.7761 12.4658 89.7507 12.5199 89.7118 12.5637L85.9938 16.7262C85.9618 16.762 85.9426 16.8073 85.939 16.8552C85.9354 16.903 85.9477 16.9507 85.974 16.9908L89.8506 22.9632C89.9055 23.0477 89.9367 23.1454 89.9409 23.2462C89.9451 23.3469 89.922 23.447 89.8742 23.5357C89.8264 23.6244 89.7556 23.6986 89.6693 23.7505C89.5829 23.8023 89.4842 23.8298 89.3836 23.8302Z" fill="#530EDD"></path>
+                                                    </g>
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_38_482">
+                                                        <rect width="70" height="32" fill="white" transform="translate(79.5)"></rect>
+                                                    </clipPath>
+                                                    <clipPath id="clip1_38_482">
+                                                        <rect width="70" height="24" fill="white" transform="translate(79.5)"></rect>
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </p>
+                                    </a></div>
+                            </div>
+                            <div style="margin-top: 15px;">
+                                <h5>Check your options in 30 seconds</h5>
+                            </div>
+                            <div>
+                                <p>Use this quick <a href="https://www.k﻿noma.io/eligibility_check/new">Eligibility Checker</a> to see your likelihood of being approved for a loan with Knoma, without any damage to your credit score.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=======Pay with Knoma Section End=====-->
+    <!--=======Accordion Section Start=====-->
+    <section class="accordion-section">
+        <div class="container">
+            <div class="row">
+                <!--Accordion Left Side-->
+                <div class="col-lg-4 col-12">
+                    <div class="accordion-left-box">
+                        <div class="left-img">
+                            <img src="assets/images/sponser-img.png" alt="">
+                        </div>
+                        <!--Left Side Butoon-->
+                        <div class="left-btn">
+                            <button class="accordion-btn enquire">Enquire Now</button><br>
+                            <button class="accordion-btn book-now" style="background: #563d81; color: #fff;">Book Now</button><br>
+                            <button class="accordion-btn download-overview" style="background: #ffa300; color: #000;">Download Overview</button>
+                        </div>
+                    </div>
+                </div>
+                <!--Accordion Right Side-->
+                <div class="accordion accordion-flush col-lg-8 col-12" id="accordionFlushExample">
+                    <!--copy item-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                <div class="item-name">
+                                    <ul style="padding-left: 10px;">
+                                        <li><img src="assets/images/dottet.png" alt=""> Introduction</li>
+                                    </ul>
+                                </div>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="accordion-body-content">
+                                    <p>ITIL&reg; Service Design certificate</p>
+                                    <h4>Next Steps</h4>
+                                    <p class="mb-4">Once you have gained the ITIL&reg; Service Design Intermediate certificate you may consider sitting another ITIL® Lifecycle course, such as:
+                                    </p>
+                                    <ul>
+                                        <li class="mb-3">
+                                            <i class="fas fa fa-check me-3"></i>Service Strategy
+                                        </li>
+                                        <li class="mb-3">
+                                            <i class="fas fa fa-check me-3"></i>Service Transition
+                                        </li>
+                                        <li class="mb-3">
+                                            <i class="fas fa fa-check me-3"></i>Service Operation
+                                        </li>
+                                        <li class="mb-3">
+                                            <i class="fas fa fa-check me-3"></i>Continual Service Improvement (CSI)
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        Once you have gained the ITIL® Service Design Intermediate certificate you may consider sitting another ITIL® Lifecycle course, such as:
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/// End copy item-->
+                    <!--copy item-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                <div class="item-name">
+                                    <ul style="padding-left: 10px;">
+                                        <li><img src="assets/images/dottet.png" alt=""> Course Outline</li>
+                                    </ul>
+                                </div>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="accordion-body-content">
+                                    <p>ITIL&reg; Service Design certificate</p>
+                                    <h4>Next Steps</h4>
+                                    <p class="mb-4">Once you have gained the ITIL&reg; Service Design Intermediate certificate you may consider sitting another ITIL® Lifecycle course, such as:
+                                    </p>
+                                    <ul>
+                                        <li class="mb-3">
+                                            <i class="fas fa fa-check me-3"></i>Service Strategy
+                                        </li>
+                                        <li class="mb-3">
+                                            <i class="fas fa fa-check me-3"></i>Service Transition
+                                        </li>
+                                        <li class="mb-3">
+                                            <i class="fas fa fa-check me-3"></i>Service Operation
+                                        </li>
+                                        <li class="mb-3">
+                                            <i class="fas fa fa-check me-3"></i>Continual Service Improvement (CSI)
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        Once you have gained the ITIL® Service Design Intermediate certificate you may consider sitting another ITIL® Lifecycle course, such as:
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/// End copy item-->
+                    <!--copy item-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                <div class="item-name">
+                                    <ul style="padding-left: 10px;">
+                                        <li><img src="assets/images/dottet.png" alt=""> Description</li>
+                                    </ul>
+                                </div>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="accordion-body-content">
+                                    <p>ITIL&reg; Service Design certificate</p>
+                                    <h4>Next Steps</h4>
+                                    <p class="mb-4">Once you have gained the ITIL&reg; Service Design Intermediate certificate you may consider sitting another ITIL® Lifecycle course, such as:
+                                    </p>
+                                    <ul>
+                                        <li class="mb-3">
+                                            <i class="fas fa fa-check me-3"></i>Service Strategy
+                                        </li>
+                                        <li class="mb-3">
+                                            <i class="fas fa fa-check me-3"></i>Service Transition
+                                        </li>
+                                        <li class="mb-3">
+                                            <i class="fas fa fa-check me-3"></i>Service Operation
+                                        </li>
+                                        <li class="mb-3">
+                                            <i class="fas fa fa-check me-3"></i>Continual Service Improvement (CSI)
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        Once you have gained the ITIL® Service Design Intermediate certificate you may consider sitting another ITIL® Lifecycle course, such as:
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/// End copy item-->
+                    <!--copy item-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                <div class="item-name">
+                                    <ul style="padding-left: 10px;">
+                                        <li><img src="assets/images/dottet.png" alt=""> Benefits</li>
+                                    </ul>
+                                </div>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="accordion-body-content">
+                                    <p>ITIL&reg; Service Design certificate</p>
+                                    <h4>Next Steps</h4>
+                                    <p class="mb-4">Once you have gained the ITIL&reg; Service Design Intermediate certificate you may consider sitting another ITIL® Lifecycle course, such as:
+                                    </p>
+                                    <ul>
+                                        <li class="mb-3">
+                                            <i class="fas fa fa-check me-3"></i>Service Strategy
+                                        </li>
+                                        <li class="mb-3">
+                                            <i class="fas fa fa-check me-3"></i>Service Transition
+                                        </li>
+                                        <li class="mb-3">
+                                            <i class="fas fa fa-check me-3"></i>Service Operation
+                                        </li>
+                                        <li class="mb-3">
+                                            <i class="fas fa fa-check me-3"></i>Continual Service Improvement (CSI)
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        Once you have gained the ITIL® Service Design Intermediate certificate you may consider sitting another ITIL® Lifecycle course, such as:
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/// End copy item-->
+                    <!--copy item-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                <div class="item-name">
+                                    <ul style="padding-left: 10px;">
+                                        <li><img src="assets/images/dottet.png" alt=""> Prerequisites</li>
+                                    </ul>
+                                </div>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="accordion-body-content">
+                                    <p>ITIL&reg; Service Design certificate</p>
+                                    <h4>Next Steps</h4>
+                                    <p class="mb-4">Once you have gained the ITIL&reg; Service Design Intermediate certificate you may consider sitting another ITIL® Lifecycle course, such as:
+                                    </p>
+                                    <ul>
+                                        <li class="mb-3">
+                                            <i class="fas fa fa-check me-3"></i>Service Strategy
+                                        </li>
+                                        <li class="mb-3">
+                                            <i class="fas fa fa-check me-3"></i>Service Transition
+                                        </li>
+                                        <li class="mb-3">
+                                            <i class="fas fa fa-check me-3"></i>Service Operation
+                                        </li>
+                                        <li class="mb-3">
+                                            <i class="fas fa fa-check me-3"></i>Continual Service Improvement (CSI)
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        Once you have gained the ITIL® Service Design Intermediate certificate you may consider sitting another ITIL® Lifecycle course, such as:
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/// End copy item-->
+                    <!--copy item-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading-six">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-six" aria-expanded="false" aria-controls="flush-collapse-six">
+                                <div class="item-name">
+                                    <ul style="padding-left: 10px;">
+                                        <li><img src="assets/images/dottet.png" alt=""> Exam Overview</li>
+                                    </ul>
+                                </div>
+                            </button>
+                        </h2>
+                        <div id="flush-collapse-six" class="accordion-collapse collapse" aria-labelledby="flush-heading-six" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="accordion-body-content">
+                                    <p>ITIL&reg; Service Design certificate</p>
+                                    <h4>Next Steps</h4>
+                                    <p class="mb-4">Once you have gained the ITIL&reg; Service Design Intermediate certificate you may consider sitting another ITIL® Lifecycle course, such as:
+                                    </p>
+                                    <ul>
+                                        <li class="mb-3">
+                                            <i class="fas fa fa-check me-3"></i>Service Strategy
+                                        </li>
+                                        <li class="mb-3">
+                                            <i class="fas fa fa-check me-3"></i>Service Transition
+                                        </li>
+                                        <li class="mb-3">
+                                            <i class="fas fa fa-check me-3"></i>Service Operation
+                                        </li>
+                                        <li class="mb-3">
+                                            <i class="fas fa fa-check me-3"></i>Continual Service Improvement (CSI)
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        Once you have gained the ITIL® Service Design Intermediate certificate you may consider sitting another ITIL® Lifecycle course, such as:
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/// End copy item-->
+                    <!--copy item-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading-seven">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-seven" aria-expanded="false" aria-controls="flush-collapse-seven">
+                                <div class="item-name">
+                                    <ul style="padding-left: 10px;">
+                                        <li><img src="assets/images/dottet.png" alt=""> Next Steps</li>
+                                    </ul>
+                                </div>
+                            </button>
+                        </h2>
+                        <div id="flush-collapse-seven" class="accordion-collapse collapse" aria-labelledby="flush-heading-seven" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="accordion-body-content">
+                                    <p>ITIL&reg; Service Design certificate</p>
+                                    <h4>Next Steps</h4>
+                                    <p class="mb-4">Once you have gained the ITIL&reg; Service Design Intermediate certificate you may consider sitting another ITIL® Lifecycle course, such as:
+                                    </p>
+                                    <ul>
+                                        <li class="mb-3">
+                                            <i class="fas fa fa-check me-3"></i>Service Strategy
+                                        </li>
+                                        <li class="mb-3">
+                                            <i class="fas fa fa-check me-3"></i>Service Transition
+                                        </li>
+                                        <li class="mb-3">
+                                            <i class="fas fa fa-check me-3"></i>Service Operation
+                                        </li>
+                                        <li class="mb-3">
+                                            <i class="fas fa fa-check me-3"></i>Continual Service Improvement (CSI)
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        Once you have gained the ITIL® Service Design Intermediate certificate you may consider sitting another ITIL® Lifecycle course, such as:
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/// End copy item-->
+                </div>
+                <!--///End FAQ-->
+            </div>
+        </div>
+    </section>
+    <!--=======Accordion Section End=====-->
+    <!--=======Faq Section Start=====-->
+    <section class="mainFaqSection">
+        <div class="container">
+            <div class="row">
+                <div class="information-header text-center" style="padding: 25px 0px;">
+                    <h2>Frequently Asked Questions</h2>
+                </div>
+                <!--Faq Area-->
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button custom-code" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <h4 class="faqHeading">Is ITIL® 4 Foundation the first step in the ITIL® 4 certification scheme? </h4>
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="faqBody">Yes, ITIL® 4 Foundation is the starting point in your ITIL® 4 certification journey and is the prerequisite for the ITIL® 4 Managing Professional (MP) and ITIL® 4 Strategic Leader (SL) training courses.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button custom-code collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <h4 class="faqHeading">Can I become ITIL® 4 Foundation certified online? </h4>
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="faqBody">Absolutely! You can become certified with our ITIL® 4 Foundation Online (180 Days) training course for £475 + VAT, which includes the formal proctored examination.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button custom-code collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <h4 class="faqHeading">Is becoming ITIL® Foundation certified worth it? </h4>
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="faqBody">ITIL® 4 certifications help you to compete in a complex market and ensure that you stay relevant. It will ensure that you understand widely-used concepts, terms, and practices to improve your organisation's growth.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Copy Item-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading04">
+                            <button class="accordion-button custom-code collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse04" aria-expanded="false" aria-controls="collapse04">
+                                <h4 class="faqHeading">What is IT Service Management (ITSM)? </h4>
+                            </button>
+                        </h2>
+                        <div id="collapse04" class="accordion-collapse collapse" aria-labelledby="heading04" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="faqBody">IT Service Management (ITSM) refers to the activities involved in implementing, managing, and delivering the lifecycle of IT services. ITSM is used to make sure the right mix of people, processes, and technology is in place to provide business value. IT Service Management doesn't just help with solving day-to-day issues. It can increase value and cost efficiency and reduce the impact of incidents on the business. IT Service Management is the art of making businesses run. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/// End Copy Item-->
+                    <!--Copy Item-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading05">
+                            <button class="accordion-button custom-code collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse05" aria-expanded="false" aria-controls="collapse05">
+                                <h4 class="faqHeading">What is ITIL®? </h4>
+                            </button>
+                        </h2>
+                        <div id="collapse05" class="accordion-collapse collapse" aria-labelledby="heading05" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="faqBody">ITIL® is used by millions of professionals all around the World, and ITIL® has been adopted by thousands of organisations, such as NASA, Microsoft, and HSBC. ITIL® is a set of practices, which focus on aligning IT services with the needs of the business. ITIL® provides comprehensive and practice guidance to establish a service management system. The ITIL® Framework will help businesses and professionals get optimal value from IT and digital services. The main focus of ITIL® is to maximise value to customers by aligning IT resources with business needs.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/// End Copy Item-->
+                    <!--Copy Item-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading06">
+                            <button class="accordion-button custom-code collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse06" aria-expanded="false" aria-controls="collapse06">
+                                <h4 class="faqHeading">What is ITIL® 4? </h4>
+                            </button>
+                        </h2>
+                        <div id="collapse06" class="accordion-collapse collapse" aria-labelledby="heading06" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="faqBody">ITIL® 4 is the latest version of the ITIL® Framework, which was released in February 2019. ITIL® 4 is highly value-centric and focuses on bringing different stakeholders in the organisation together to create value for the customer. With new frameworks growing in popularity, such as SIAM™ and VeriSM™, the previous version of ITIL® (ITIL® V3) had to step up its game and improve the way it dealt with challenges brought on by digital disruption. ITIL® 4, the current version of ITIL®, takes all of the best parts from ITIL® V3 and creates a framework that focuses on delivering tailor-made solutions for organisations through "practices" instead of "processes." Also, Agile, DevOps, and Digital Transformation all play a role in the new ITIL® 4 Framework. The key elements of ITIL® 4 are the four dimensions, the guiding principles, the move from processes (ITIL® V3) to practices (ITIL® 4), and the service value system.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/// End Copy Item-->
+                    <!--Copy Item-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading07">
+                            <button class="accordion-button custom-code collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse07" aria-expanded="false" aria-controls="collapse07">
+                                <h4 class="faqHeading">Can I self-study ITIL® 4 Foundation? </h4>
+                            </button>
+                        </h2>
+                        <div id="collapse07" class="accordion-collapse collapse" aria-labelledby="heading07" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="faqBody">Sure! Our ITIL® 4 Foundation Exam Only bundle costs £329 + VAT and includes the official proctored examination and core guidance in eBook format. Our ITIL® 4 Foundation Exam Only bundle requires you to complete at least 16 hours of self-study in preparation for the ITIL® 4 Foundation examination. You will not receive any formal training via our online training platform or from a tutor.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/// End Copy Item-->
+                    <!--Copy Item-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading08">
+                            <button class="accordion-button custom-code collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse08" aria-expanded="false" aria-controls="collapse08">
+                                <h4 class="faqHeading">Is the ITIL® 4 Foundation exam difficult? </h4>
+                            </button>
+                        </h2>
+                        <div id="collapse08" class="accordion-collapse collapse" aria-labelledby="heading08" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="faqBody">The ITIL® 4 Foundation proctored examination is taken over one-hour and comprises of forty multiple-choice questions. In order to get your ITIL® 4 Foundation certificate, you must score 65% or 26/40 to pass the exam. With Purple Griffon, sitting your ITIL® 4 Foundation exam is now easier than ever.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/// End Copy Item-->
+                    <!--Copy Item-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading09">
+                            <button class="accordion-button custom-code collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse09" aria-expanded="false" aria-controls="collapse09">
+                                <h4 class="faqHeading">Does the ITIL® 4 Foundation certificate expire? </h4>
+                            </button>
+                        </h2>
+                        <div id="collapse09" class="accordion-collapse collapse" aria-labelledby="heading09" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="faqBody">No, there is no expiry date on the ITIL® 4 Foundation certification and it is valid for life, however newer versions of ITIL® may be released in the future.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/// End Copy Item-->
+                    <!--Copy Item-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading10">
+                            <button class="accordion-button custom-code collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                                <h4 class="faqHeading">Is the ITIL® 4 Foundation exam open book? </h4>
+                            </button>
+                        </h2>
+                        <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="faqBody">The ITIL® 4 Foundation proctored examination is a closed book examination with no notes.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/// End Copy Item-->
+                    <!--Copy Item-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading11">
+                            <button class="accordion-button custom-code collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                                <h4 class="faqHeading">Which languages can I take the ITIL® 4 Foundation exam in? </h4>
+                            </button>
+                        </h2>
+                        <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="faqBody">The ITIL® 4 Foundation exam can be taken in English, Chinese, Dutch, French, German, Italian, Japanese, Polish, Portuguese (Brazil) and Spanish.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/// End Copy Item-->
+                    <!--Copy Item-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading13">
+                            <button class="accordion-button custom-code collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                                <h4 class="faqHeading">How do I become ITIL® 4 Foundation certified? </h4>
+                            </button>
+                        </h2>
+                        <div id="collapse13" class="accordion-collapse collapse" aria-labelledby="heading13" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="faqBody">To be awarded the ITIL® 4 Foundation certification, you must complete ITIL® 4 Foundation certification training, and when you feel comfortable, take the ITIL® 4 Foundation proctored exam. If you score 65% or 26/40 correct answers in the exam, then you will receive your ITIL® 4 Foundation certificate.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/// End Copy Item-->
+                    <!--Copy Item-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading14">
+                            <button class="accordion-button custom-code collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
+                                <h4 class="faqHeading">Can I spread the cost of the ITIL® 4 Foundation online training course? </h4>
+                            </button>
+                        </h2>
+                        <div id="collapse14" class="accordion-collapse collapse" aria-labelledby="heading14" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="faqBody">If you want to become ITIL® 4 Foundation certified, you can now learn and spread the cost over 12 months. We have partnered with Knoma to help you become certified with us, without paying any fees upfront. To start the Knoma application process, click the Knoma button on this ITIL® 4 Foundation course page and pay later with no interest. Apply in minutes. Most people get a decision instantly, though it could take up to 48 hours. Knoma only conducts soft credit and identity checks, so being declined will not affect your credit score.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/// End Copy Item-->
+                    <!--Copy Item-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading15">
+                            <button class="accordion-button custom-code collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
+                                <h4 class="faqHeading">If I fail the ITIL® 4 Foundation exam, how much does it cost to re-sit? </h4>
+                            </button>
+                        </h2>
+                        <div id="collapse15" class="accordion-collapse collapse" aria-labelledby="heading15" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="faqBody">The cost to re-sit your ITIL® 4 Foundation exam is £295 + VAT - it does not include another copy of the official core guidance as you should still have it from your original exam. The Take2 re-sit exam option is also available for £50 + VAT, which allows you to retake an unsuccessful exam at a fixed, attractive rate, for a fraction of the cost. The Take2 re-sit exam option must be added at the point of booking your training course and / or exam, and if you would like to use this option, you must confirm this with your Account Manager. Please click here to find out more information about the PeopleCert Take2 re-sit exam option.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/// End Copy Item-->
+                    <!--Copy Item-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading17">
+                            <button class="accordion-button custom-code collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse17" aria-expanded="false" aria-controls="collapse17">
+                                <h4 class="faqHeading">What are the entry-level requirements for the ITIL® 4 Foundation online training course? </h4>
+                            </button>
+                        </h2>
+                        <div id="collapse17" class="accordion-collapse collapse" aria-labelledby="heading17" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="faqBody">There are no prerequisites associated with our ITIL® 4 Foundation online training course.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/// End Copy Item-->
+                    <!--Copy Item-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading23">
+                            <button class="accordion-button custom-code collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse23" aria-expanded="false" aria-controls="collapse23">
+                                <h4 class="faqHeading">What are the technical requirements for the ITIL® 4 Foundation exam? </h4>
+                            </button>
+                        </h2>
+                        <div id="collapse23" class="accordion-collapse collapse" aria-labelledby="heading23" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="faqBody">Read the PeopleCert Official Guidance for Windows Devices and MacOS Devices for a step-by-step guide on how to take your online proctored examination.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/// End Copy Item-->
+                    <!--Copy Item-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading24">
+                            <button class="accordion-button custom-code collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse24" aria-expanded="false" aria-controls="collapse24">
+                                <h4 class="faqHeading">Do I need photo ID for the ITIL® 4 Foundation exam? </h4>
+                            </button>
+                        </h2>
+                        <div id="collapse24" class="accordion-collapse collapse" aria-labelledby="heading24" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="faqBody">If you are preparing to take, or are registered to take an online exam with live invigilation, please take the time to read the PeopleCert Identification Policy.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/// End Copy Item-->
+                    <!--Copy Item-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading25">
+                            <button class="accordion-button custom-code collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse25" aria-expanded="false" aria-controls="collapse25">
+                                <h4 class="faqHeading">Who is the accreditation body for the ITIL® 4 Foundation certification? </h4>
+                            </button>
+                        </h2>
+                        <div id="collapse25" class="accordion-collapse collapse" aria-labelledby="heading25" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="faqBody">The ITIL® 4 Foundation certification is governed and maintained by PeopleCert. PeopleCert delivers exams in more than 200 countries, in 25 languages, through its state-of-the-art assessment technology.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/// End Copy Item-->
+                    <!--Copy Item-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading26">
+                            <button class="accordion-button custom-code collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse26" aria-expanded="false" aria-controls="collapse26">
+                                <h4 class="faqHeading">How long will I have access to the ITIL® 4 Foundation online training course? </h4>
+                            </button>
+                        </h2>
+                        <div id="collapse26" class="accordion-collapse collapse" aria-labelledby="heading26" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="faqBody">You will have access to our ITIL® 4 Foundation online training course for 180 days from first-login to our training portal. If you would like your access to be extended, there might be some costs involved.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/// End Copy Item-->
+                    <!--Copy Item-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading27">
+                            <button class="accordion-button custom-code collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse27" aria-expanded="false" aria-controls="collapse27">
+                                <h4 class="faqHeading">Can I enrol myself on the ITIL® 4 Foundation online training course? </h4>
+                            </button>
+                        </h2>
+                        <div id="collapse27" class="accordion-collapse collapse" aria-labelledby="heading27" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="faqBody">Definitely! If you purchase the ITIL® 4 Foundation online training course in the Purple Griffon Online Training Portal, you will get immediate access and can start learning straight away.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/// End Copy Item-->
+                    <!--Copy Item-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading28">
+                            <button class="accordion-button custom-code collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse24" aria-expanded="false" aria-controls="collapse24">
+                                <h4 class="faqHeading">What is the next step after completing the ITIL® 4 Foundation online training course? </h4>
+                            </button>
+                        </h2>
+                        <div id="collapse24" class="accordion-collapse collapse" aria-labelledby="heading24" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="faqBody">ITIL® 4 Specialist Create, Deliver & Support - CDS Online (180 Days) is the logical next step after ITIL® 4 Foundation for those wanting to make immediate tangible changes to their organisation’s working methods in service management. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/// End Copy Item-->
+                    <!--Copy Item-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading29">
+                            <button class="accordion-button custom-code collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse29" aria-expanded="false" aria-controls="collapse29">
+                                <h4 class="faqHeading">What is IT Service Management (ITSM)? </h4>
+                            </button>
+                        </h2>
+                        <div id="collapse29" class="accordion-collapse collapse" aria-labelledby="heading29" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="faqBody">IT Service Management (ITSM) refers to the activities involved in implementing, managing, and delivering the lifecycle of IT services. ITSM is used to make sure the right mix of people, processes, and technology is in place to provide business value. IT Service Management doesn't just help with solving day-to-day issues. It can increase value and cost efficiency and reduce the impact of incidents on the business. IT Service Management is the art of making businesses run.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/// End Copy Item-->
+                    <!--Copy Item-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading30">
+                            <button class="accordion-button custom-code collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse30" aria-expanded="false" aria-controls="collapse30">
+                                <h4 class="faqHeading">What is ITIL®? </h4>
+                            </button>
+                        </h2>
+                        <div id="collapse30" class="accordion-collapse collapse" aria-labelledby="heading30" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="faqBody">ITIL® is used by millions of professionals all around the World, and ITIL® has been adopted by thousands of organisations, such as NASA, Microsoft, and HSBC. ITIL® is a set of practices, which focus on aligning IT services with the needs of the business. ITIL® provides comprehensive and practice guidance to establish a service management system. The ITIL® Framework will help businesses and professionals get optimal value from IT and digital services. The main focus of ITIL® is to maximise value to customers by aligning IT resources with business needs.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/// End Copy Item-->
+                    <!--Copy Item-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading31">
+                            <button class="accordion-button custom-code collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse31" aria-expanded="false" aria-controls="collapse31">
+                                <h4 class="faqHeading">What is ITIL® 4? </h4>
+                            </button>
+                        </h2>
+                        <div id="collapse31" class="accordion-collapse collapse" aria-labelledby="heading31" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="faqBody">ITIL® 4 is the latest version of the ITIL® Framework, which was released in February 2019. ITIL® 4 is highly value-centric and focuses on bringing different stakeholders in the organisation together to create value for the customer. With new frameworks growing in popularity, such as SIAM™ and VeriSM™, the previous version of ITIL® (ITIL® V3) had to step up its game and improve the way it dealt with challenges brought on by digital disruption. ITIL® 4, the current version of ITIL®, takes all of the best parts from ITIL® V3 and creates a framework that focuses on delivering tailor-made solutions for organisations through "practices" instead of "processes." Also, Agile, DevOps, and Digital Transformation all play a role in the new ITIL® 4 Framework. The key elements of ITIL® 4 are the four dimensions, the guiding principles, the move from processes (ITIL® V3) to practices (ITIL® 4), and the service value system.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/// End Copy Item-->
+                </div>
+                <!--/// End Faq Area-->
+            </div>
+        </div>
+    </section>
+    <!--=======Faq Section End=====-->
+    <!--=======Information Section Start=====-->
+    <section class="information">
+        <div class="container">
+            <div class="information-header text-center">
+                <p>INFORMATION</p>
+                <h2>ITIL&reg; Service Design Course Dates</h2>
+            </div>
+            <div class="information-form">
+                <div class="row">
+                    <div class="col-lg-5 location">
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle d-flex location-link" data-bs-toggle="dropdown" id="category-menu-1" href="#">
+                                <p>
+                                    Select a Location<br><span>Aberdeen</span>
+                                </p>
+                                <img src="assets/images/arrow-options.png" style="width: 30px; height: 30px; border-radius: 50%; margin-top: 10px;" alt="">
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item">A</li>
+                                <li class="dropdown-item">B</li>
+                                <li class="dropdown-item">C</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 choose-date">
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle date-link choose-date-link" data-bs-toggle="dropdown" id="category-menu-1" href="#">
+                                <p>
+                                    Choose a Date<br><span>DD/MM/YY</span>
+                                </p>
+                                <img src="assets/images/arrow-options.png" style="width: 30px; height: 30px; border-radius: 50%; margin-top: 10px;" alt="">
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item">A</li>
+                                <li class="dropdown-item">B</li>
+                                <li class="dropdown-item">C</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <button class="filter-now-btn">Filter Now</button>
+                    </div>
+                </div>
+            </div>
+            <!--************Information SLider Section********-->
+            <section class="information-slider">
+                <div class="container">
+                    <!--Slider-->
+                    <div class="recommendation-slider">
+                        <div class="swiper feedbackSlide">
+                            <div class="swiper-wrapper">
+                                <!--slide item-->
+                                <div class="swiper-slide">
+                                    <div class="info-slider-content-box">
+                                        <div class="info-slider-header d-flex">
+                                            <img src="assets/images/grag.png" alt="">
+                                            <div class="text">
+                                                <span>Course</span><br>
+                                                <h5>ITIL&reg; Service Design </h5>
+                                            </div>
+                                            <div class="new">
+                                                <div class="new-text">
+                                                    <span>NEW ONLY</span><br>
+                                                    <p>£995</p>
+                                                    <span>+vat</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--Information Content Course and Date-->
+                                        <div class="info-course-date-loc">
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <div class="course-date">
+                                                        <i class="fa-solid fa-calendar float-start"></i><br>
+                                                        <div class="course-date-text">
+                                                            <span class="">COURSE</span><br />
+                                                            <p>07 DEC -11 DEC</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--Info Location-->
+                                                <div class="col-lg-6">
+                                                    <div class="info-location">
+                                                        <i class="fa-solid fa-location-dot"></i><br>
+                                                        <div class="info-location-text">
+                                                            <span>LOCATION</span><br>
+                                                            <p>Virtual Classroom</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--Information Content Button-->
+                                        <div class="info-btn-box">
+                                            <a href="#" class="info-btn book-now">Book Now <i class="fa-solid fa-arrow-right-long"></i></a>
+                                            <a href="#" class="info-btn">Enquire Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end slide item -->
+                                <!--slide item-->
+                                <div class="swiper-slide">
+                                    <div class="info-slider-content-box">
+                                        <div class="info-slider-header d-flex">
+                                            <img src="assets/images/grag.png" alt="">
+                                            <div class="text">
+                                                <span>Course</span><br>
+                                                <h5>ITIL&reg; Service Design </h5>
+                                            </div>
+                                            <div class="new">
+                                                <div class="new-text">
+                                                    <span>NEW ONLY</span><br>
+                                                    <p>£995</p>
+                                                    <span>+vat</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--Information Content Course and Date-->
+                                        <div class="info-course-date-loc">
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <div class="course-date">
+                                                        <i class="fa-solid fa-calendar float-start"></i><br>
+                                                        <div class="course-date-text">
+                                                            <span class="">COURSE</span><br />
+                                                            <p>07 DEC -11 DEC</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--Info Location-->
+                                                <div class="col-lg-6">
+                                                    <div class="info-location">
+                                                        <i class="fa-solid fa-location-dot"></i><br>
+                                                        <div class="info-location-text">
+                                                            <span>LOCATION</span><br>
+                                                            <p>Virtual Classroom</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--Information Content Button-->
+                                        <div class="info-btn-box">
+                                            <a href="#" class="info-btn book-now">Book Now <i class="fa-solid fa-arrow-right-long"></i></a>
+                                            <a href="#" class="info-btn">Enquire Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end slide item -->
+                                <!--slide item-->
+                                <div class="swiper-slide">
+                                    <div class="info-slider-content-box">
+                                        <div class="info-slider-header d-flex">
+                                            <img src="assets/images/grag.png" alt="">
+                                            <div class="text">
+                                                <span>Course</span><br>
+                                                <h5>ITIL&reg; Service Design </h5>
+                                            </div>
+                                            <div class="new">
+                                                <div class="new-text">
+                                                    <span>NEW ONLY</span><br>
+                                                    <p>£995</p>
+                                                    <span>+vat</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--Information Content Course and Date-->
+                                        <div class="info-course-date-loc">
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <div class="course-date">
+                                                        <i class="fa-solid fa-calendar float-start"></i><br>
+                                                        <div class="course-date-text">
+                                                            <span class="">COURSE</span><br />
+                                                            <p>07 DEC -11 DEC</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--Info Location-->
+                                                <div class="col-lg-6">
+                                                    <div class="info-location">
+                                                        <i class="fa-solid fa-location-dot"></i><br>
+                                                        <div class="info-location-text">
+                                                            <span>LOCATION</span><br>
+                                                            <p>Virtual Classroom</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--Information Content Button-->
+                                        <div class="info-btn-box">
+                                            <a href="#" class="info-btn book-now">Book Now <i class="fa-solid fa-arrow-right-long"></i></a>
+                                            <a href="#" class="info-btn">Enquire Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end slide item -->
+                                <!--slide item-->
+                                <div class="swiper-slide">
+                                    <div class="info-slider-content-box">
+                                        <div class="info-slider-header d-flex">
+                                            <img src="assets/images/grag.png" alt="">
+                                            <div class="text">
+                                                <span>Course</span><br>
+                                                <h5>ITIL&reg; Service Design </h5>
+                                            </div>
+                                            <div class="new">
+                                                <div class="new-text">
+                                                    <span>NEW ONLY</span><br>
+                                                    <p>£995</p>
+                                                    <span>+vat</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--Information Content Course and Date-->
+                                        <div class="info-course-date-loc">
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <div class="course-date">
+                                                        <i class="fa-solid fa-calendar float-start"></i><br>
+                                                        <div class="course-date-text">
+                                                            <span class="">COURSE</span><br />
+                                                            <p>07 DEC -11 DEC</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--Info Location-->
+                                                <div class="col-lg-6">
+                                                    <div class="info-location">
+                                                        <i class="fa-solid fa-location-dot"></i><br>
+                                                        <div class="info-location-text">
+                                                            <span>LOCATION</span><br>
+                                                            <p>Virtual Classroom</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--Information Content Button-->
+                                        <div class="info-btn-box">
+                                            <a href="#" class="info-btn book-now">Book Now <i class="fa-solid fa-arrow-right-long"></i></a>
+                                            <a href="#" class="info-btn">Enquire Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end slide item -->
+                            </div>
+                        </div>
+                    </div>
+                    <!--/// End Slider-->
+                    <!--*******Slider Pagination*****-->
+                    <div class="row">
+                        <div class="slider-page">
+                            <ul>
+                                <li><a href="#" class="rec-left-arrow" id="rec-slide-prev-btn"><img src="assets/images/arrow-left.png" alt=""></a></li>
+                                <li><a href="#" class="active slide-page">1</a></li>
+                                <li><a href="#" class="slide-page">2</a></li>
+                                <li><a href="#" class=" slide-page">3</a></li>
+                                <li><a href="#" class=" slide-page">...</a></li>
+                                <li><a href="#" class="slide-page">9</a></li>
+                                <li><a href="#" class="slide-page">10</a></li>
+                                <li><a href="#" class="rec-right-arrow" id="rec-slide-next-btn"><img src="assets/images/arrow-right.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--=======Information Section End=====-->
+            <!--=========Related Course Section Start=======-->
+            <section class="related-course">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 d-none">
+                            <div class="accordion-right-side">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header accordion-ex-btn" id="flush-headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                            Introduction
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <div class="accordion-body-content">
+                                                <p>ITIL&reg; Service Design certificate</p>
+                                                <h4>Next Steps</h4>
+                                                <p class="mb-4">Once you have gained the ITIL® Service Design Intermediate certificate you may consider sitting another ITIL&reg; Lifecycle course, such as:
+                                                </p>
+                                                <ul>
+                                                    <li class="mb-3">
+                                                        <i class="fas fa fa-check me-3"></i>Service Strategy
+                                                    </li>
+                                                    <li class="mb-3">
+                                                        <i class="fas fa fa-check me-3"></i>Service Transition
+                                                    </li>
+                                                    <li class="mb-3">
+                                                        <i class="fas fa fa-check me-3"></i>Service Operation
+                                                    </li>
+                                                </ul>
+                                                <p>
+                                                    Once you have gained the ITIL® Service Design Intermediate certificate you may consider sitting another ITIL&reg; Lifecycle course, such as:
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Copy Accordion Item-->
+                            <div class="accordion-right-side">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header accordion-ex-btn" id="flush-heading3">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                            Introduction
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum sed nemo, accusamus nesciunt quas aliquid totam perferendis dicta fugiat possimus doloremque temporibus! Temporibus et doloribus, laboriosam, molestias, eum qui mollitia molestiae placeat, sapiente nemo reiciendis rem fugit accusamus fugiat labore quos. Recusandae ipsa nobis, atque itaque vitae! Fuga, libero, fugit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Copy Accordion Item End-->
+                            <!--Copy Accordion Item-->
+                            <div class="accordion-right-side">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header accordion-ex-btn" id="flush-headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                            Introduction
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum sed nemo, accusamus nesciunt quas aliquid totam perferendis dicta fugiat possimus doloremque temporibus! Temporibus et doloribus, laboriosam, molestias, eum qui mollitia molestiae placeat, sapiente nemo reiciendis rem fugit accusamus fugiat labore quos. Recusandae ipsa nobis, atque itaque vitae! Fuga, libero, fugit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Copy Accordion Item End-->
+                            <!--Copy Accordion Item-->
+                            <div class="accordion-right-side">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header accordion-ex-btn" id="flush-headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                            Introduction
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum sed nemo, accusamus nesciunt quas aliquid totam perferendis dicta fugiat possimus doloremque temporibus! Temporibus et doloribus, laboriosam, molestias, eum qui mollitia molestiae placeat, sapiente nemo reiciendis rem fugit accusamus fugiat labore quos. Recusandae ipsa nobis, atque itaque vitae! Fuga, libero, fugit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Copy Accordion Item End-->
+                            <!--Copy Accordion Item-->
+                            <div class="accordion-right-side">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header accordion-ex-btn" id="flush-headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                            Introduction
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapse6" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum sed nemo, accusamus nesciunt quas aliquid totam perferendis dicta fugiat possimus doloremque temporibus! Temporibus et doloribus, laboriosam, molestias, eum qui mollitia molestiae placeat, sapiente nemo reiciendis rem fugit accusamus fugiat labore quos. Recusandae ipsa nobis, atque itaque vitae! Fuga, libero, fugit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Copy Accordion Item End-->
+                            <!--Copy Accordion Item-->
+                            <div class="accordion-right-side">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header accordion-ex-btn" id="flush-headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                            Introduction
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapse7" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum sed nemo, accusamus nesciunt quas aliquid totam perferendis dicta fugiat possimus doloremque temporibus! Temporibus et doloribus, laboriosam, molestias, eum qui mollitia molestiae placeat, sapiente nemo reiciendis rem fugit accusamus fugiat labore quos. Recusandae ipsa nobis, atque itaque vitae! Fuga, libero, fugit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Copy Accordion Item End-->
+                        </div>
+                    </div>
+                    <!--******Sample of accordion******-->
+                    <div class="row">
+                        <div class="col-lg-12 mb-3">
+                            <div class="accordion2-main-box d-flex">
+                                <div class="btn">
+                                    <p style="background: #783863;">ITIL4F</p>
+                                </div>
+                                <div class="classroom">
+                                    <p>Virtual Classroom</p>
+                                </div>
+                                <div class="foundation">
+                                    <h5>ITIL&reg; 4 Foundation</h5>
+                                </div>
+                                <div class="price">
+                                    <h5>£995</h5>
+                                    <span>+VAT</span>
+                                </div>
+                                <a href="#" class="icon">
+                                    <img class="mainArrwo" src="assets/images/arrow-01.png" alt="">
+                                    <img class="hoverArrow" src="assets/images/arrow-02.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!--Copy sample Item-->
+                        <div class="col-lg-12 mb-3">
+                            <div class="accordion2-main-box d-flex">
+                                <div class="btn">
+                                    <p style="background: #783863;">ITIL4F</p>
+                                </div>
+                                <div class="classroom">
+                                    <p>Virtual Classroom</p>
+                                </div>
+                                <div class="foundation">
+                                    <h5>ITIL&reg; 4 Foundation</h5>
+                                </div>
+                                <div class="price">
+                                    <h5>£995</h5>
+                                    <span>+VAT</span>
+                                </div>
+                                <a href="#" class="icon">
+                                    <img class="mainArrwo" src="assets/images/arrow-01.png" alt="">
+                                    <img class="hoverArrow" src="assets/images/arrow-02.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!--Copy end-->
+                        <div class="col-lg-12 mb-3">
+                            <div class="accordion2-main-box d-flex">
+                                <div class="btn">
+                                    <p>ITIL4F</p>
+                                </div>
+                                <div class="classroom">
+                                    <p>Virtual Classroom</p>
+                                </div>
+                                <div class="foundation">
+                                    <h5>ITIL&reg; 4 Foundation</h5>
+                                </div>
+                                <div class="price">
+                                    <h5>£995</h5>
+                                    <span>+VAT</span>
+                                </div>
+                                <a href="#" class="icon">
+                                    <img class="mainArrwo" src="assets/images/arrow-01.png" alt="">
+                                    <img class="hoverArrow" src="assets/images/arrow-02.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!--Copy end-->
+                        <!--Copy end-->
+                        <div class="col-lg-12 mb-3">
+                            <div class="accordion2-main-box d-flex">
+                                <div class="btn">
+                                    <p style="background: #783863;">ITIL4F</p>
+                                </div>
+                                <div class="classroom">
+                                    <p>Virtual Classroom</p>
+                                </div>
+                                <div class="foundation">
+                                    <h5>ITIL&reg; 4 Foundation</h5>
+                                </div>
+                                <div class="price">
+                                    <h5>£995</h5>
+                                    <span>+VAT</span>
+                                </div>
+                                <a href="#" class="icon">
+                                    <img class="mainArrwo" src="assets/images/arrow-01.png" alt="">
+                                    <img class="hoverArrow" src="assets/images/arrow-02.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!--Copy end-->
+                        <!--Copy end-->
+                        <div class="col-lg-12 mb-3">
+                            <div class="accordion2-main-box d-flex">
+                                <div class="btn">
+                                    <p>ITIL4F</p>
+                                </div>
+                                <div class="classroom">
+                                    <p>Virtual Classroom</p>
+                                </div>
+                                <div class="foundation">
+                                    <h5>ITIL&reg; 4 Foundation</h5>
+                                </div>
+                                <div class="price">
+                                    <h5>£995</h5>
+                                    <span>+VAT</span>
+                                </div>
+                                <a href="#" class="icon">
+                                    <img class="mainArrwo" src="assets/images/arrow-01.png" alt="">
+                                    <img class="hoverArrow" src="assets/images/arrow-02.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!--Copy end-->
+                        <!--Copy end-->
+                        <div class="col-lg-12 mb-3">
+                            <div class="accordion2-main-box d-flex">
+                                <div class="btn">
+                                    <p style="background: #783863;">ITIL4F</p>
+                                </div>
+                                <div class="classroom">
+                                    <p>Virtual Classroom</p>
+                                </div>
+                                <div class="foundation">
+                                    <h5>ITIL&reg; 4 Foundation</h5>
+                                </div>
+                                <div class="price">
+                                    <h5>£995</h5>
+                                    <span>+VAT</span>
+                                </div>
+                                <a href="#" class="icon">
+                                    <img class="mainArrwo" src="assets/images/arrow-01.png" alt="">
+                                    <img class="hoverArrow" src="assets/images/arrow-02.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!--Copy end-->
+                    </div>
+                </div>
+            </section>
+            <!--=========Related Course Section End=======-->
+            <!--=======Footer Section Start=====-->
+            <div class="container-fluid footer">
+                <div class="container">
+                    <div class="row text-center justify-content-center">
+                        <!--Footer Logo-->
+                        <div class="col-lg-2">
+                            <div class="ftr-logo">
+                                <img src="assets/images/footer-logo-01.png" alt=""><br>
+                                <img src="assets/images/footer-logo-02.png" alt="">
+                            </div>
+                        </div>
+                        <!--Footer Content-->
+                        <div class="col-lg-8">
+                            <div class="payment">
+                                <ul class="d-flex justify-content-center payItem">
+                                    <li><img src="assets/images/payment/01.png" alt=""></li>
+                                    <li><img src="assets/images/payment/02.png" alt=""></li>
+                                    <li><img src="assets/images/payment/03.png" alt=""></li>
+                                    <li><img src="assets/images/payment/04.png" alt=""></li>
+                                    <li><img src="assets/images/payment/05.png" alt=""></li>
+                                </ul>
+                            </div>
+                            <div class="ftr-text">
+                                <p>
+                                    Purple Griffon has been independently verified as a Leader for all ITIL® training by Course Conductor. We are proud to have achieved this status, which is based entirely on customer reviews, because we are dedicated to providing the highest level of quality training experiences for our clients.”
+                                </p>
+                                <span>Copyright © 2002 - 2020 Purple Griffon Limited. All Rights Reserved.</span>
+                            </div>
+                            <!--Footer Bottom-->
+                            <div class="ftr-btm text-center">
+                                <ul>
+                                    <li><a href="#">Trademarks</a></li>
+                                    <li><a href="#">Terms & Conditions</a></li>
+                                    <li><a href="#">Privacy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--Social Icon-->
+                        <div class="col-lg-2">
+                            <div class="social-icon">
+                                <ul class="d-flex social-icon-list">
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f" style="padding: 10px 13px;"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--=======Footer Section End=====-->
+            <!-- swiper CDN js link -->
+            <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+            <!-- Initialize Swiper -->
+            <script>
+                var swiper = new Swiper(".feedbackSlide", {
+                    slidesPerView: 4,
+                    spaceBetween: 2,
+                    loop: true,
+                    pagination: {
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: "#rec-slide-next-btn",
+                        prevEl: "#rec-slide-prev-btn",
+                    },
+                    breakpoints: {
+                        277: {
+                            slidesPerView: 1,
+                            spaceBetween: 20,
+                        },
+                        577: {
+                            slidesPerView: 1,
+                            spaceBetween: 20,
+                        },
+                        640: {
+                            slidesPerView: 1,
+                            spaceBetween: 20,
+                        },
+                        768: {
+                            slidesPerView: 2,
+                            spaceBetween: 40,
+                        },
+                        1024: {
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                        },
+                    },
+                });
+
+            </script>
+            <!--Bootstrap CDN js-->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
